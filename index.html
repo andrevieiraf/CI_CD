@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minha Página HTML</title>
+    <style>
+      body {
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        line-height: 2;
+        margin: 0;
+        background-image: url('https://www.w3schools.com/w3images/mountains.jpg');
+        background-size: cover;
+        color: #f0f0f0;
+      }
+      header {
+        background: linear-gradient(90deg, #ff004c, #ffcc00);
+        color: #333;
+        padding: 50px 0;
+        text-align: center;
+        transform: rotate(-5deg);
+      }
+      h1 {
+        margin: 0;
+        text-shadow: 2px 2px #000;
+      }
+      .container {
+        max-width: 80%;
+        margin: 50px auto;
+        background: rgba(0, 0, 0, 0.7);
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        color: #fff;
+        transform: skew(-10deg);
+      }
+      ul {
+        list-style-type: none;
+        padding-left: 20px;
+      }
+      ul li::before {
+        content: "🔥";
+        padding-right: 10px;
+      }
+      footer {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 1.2em;
+        color: #fff;
+        transform: rotate(10deg);
+        background: rgba(255, 0, 0, 0.7);
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Bem-vindo à Minha Página!</h1>
+    </header>
+    <div class="container">
+      <h2>Sobre Mim</h2>
+      <p>
+        Olá! Esta é uma página HTML simples criada para fins de exemplo. Aqui
+        você pode adicionar conteúdo sobre você, seus interesses, ou qualquer
+        outra informação que desejar compartilhar.
+      </p>
+      <h3>Minhas Habilidades</h3>
+      <ul>
+        <li>Desenvolvimento Web</li>
+        <li>Programação em JavaScript</li>
+        <li>Design Responsivo</li>
+      </ul>
+    </div>
+    <footer>
+      <p>&copy; 2024 Minha Página HTML. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
